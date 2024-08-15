@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Questrial&family=Roboto:wght@100&display=swap');
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Questrial';
 }
 
 body {
@@ -47,4 +48,36 @@ body {
     margin-right: 10px;
     background: none;
     border: none;
+}
+
+.contacto_box {
+    width: 80%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(40, 19, 155, 0.041));
+    margin: 50px;
+    padding: 70px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: #3a3636;
+}
+
+.contacto_box label {
+    margin: 0.8rem;
+}
+
+.form-input {
+    border: 1px solid #3a3636;
+    border-radius: 4px;
+    padding: 0.6rem;
+}
+
+.submit-button {
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: rgb(218, 196, 251);
 }

@@ -1,5 +1,5 @@
 <div class="container">
-    <div class=" container position-absolute bottom-0 start-50 translate-middle-x">
+    <div class=" container position-absolute bottom-0 start-50 translate-middle-x mb-5">
         <p class="text-color fw-bold">Moca Bakery fue fundada en 1991. Produce y elabora todos sus productos con materia de primera calidad. Son recién horneados y deliciosos.</p>
         <hr class="text-white">
         <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
