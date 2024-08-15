@@ -20,26 +20,26 @@ if (isset($_GET['producto'])) {
         case 'tr':
             $nombre = "Tarta de Ricota";
             $valor = 2000;
-            $descripcion = "Deliciosa tarta hecha con ricota fresca";
+            $descripcion = "Deliciosa tarta hecha con ricota fresca.";
             $img = "assets/img/tarta_ricota.jpg";
             break;
         case 'rc':
             $nombre = "Roll de canela";
             $valor = 2100;
-            $descripcion = "Exquisito roll de canela con un toque de dulce de leche";
+            $descripcion = "Exquisito roll de canela con un toque de dulce de leche.";
             $img = "assets/img/roll_canela.jpg";
             break;
         case 'ct':
             $nombre = "Chocotorta";
             $valor = 3100;
-            $descripcion = "Chocotorta deliciosa";
+            $descripcion = "Chocotorta deliciosa.";
             $img = "assets/img/chocotorta.jpg";
             break;
 
         default:
             $nombre = "Medialunas";
             $valor = 1500;
-            $descripcion = "Deliciosas medialunas";
+            $descripcion = "Deliciosas medialunas.";
             $img = "assets/img/medialunas.jpg";
             break;
     }
