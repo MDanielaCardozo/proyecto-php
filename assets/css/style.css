@@ -81,3 +81,15 @@ body {
 .submit-button:hover {
     background-color: rgb(218, 196, 251);
 }
+
+.productos {
+    width: 100%;
+}
+
+.card-t {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.247), rgba(40, 19, 155, 0.041));
+    border: 1px solid rgba(255, 255, 255, 0.678);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: #3a3636;
+    border-radius: 10px;
+}
