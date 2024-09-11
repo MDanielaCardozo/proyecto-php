@@ -8,6 +8,9 @@ include("header.php");
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" class="form-input">
 
+            <label for="nombre">Apellido</label>
+            <input type="text" name="apellido" class="form-input">
+
             <label for="email">Correo electronico</label>
             <input type="text" name="email" class="form-input">
 
@@ -15,6 +18,11 @@ include("header.php");
             <textarea name="mensaje" id="" rows="4" class="form-input"></textarea>
             <input type="submit" value="Enviar consulta" class="submit-button">
         </form>
+        <?php
+        if (isset($_GET['ok'])) {
+            echo "<h3> Su consulta fue enviada con éxito </h3>";
+        }
+        ?>
     </div>
 </section>
 
