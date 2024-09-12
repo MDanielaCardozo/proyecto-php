@@ -68,9 +68,10 @@ if (isset($_GET['producto'])) {
 
 <?php } else {
 
-    echo "<p> Por favor seleccione una opcion del productos </p>";
+    echo "<h4> Por favor seleccione una opcion de los productos</h4>";
 } ?>
 
 <?php
 include("footer.php");
 ?>
+
