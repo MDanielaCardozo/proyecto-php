@@ -13,10 +13,10 @@ $mensaje = $_POST['mensaje'];
 
 // // mail("mdanielacardozo@gmail.com", "Mensaje desde PHP", $correo);
 
-$server = "sql110.infinityfree.com";
-$user = "if0_37114901";
-$password = "hin6q3kmhGnUnwE";
-$db_name = "if0_37114901_cardozo_daniela";
+$server = "sql112.infinityfree.com";
+$user = "if0_37301024";
+$password = "Eg3mti0WcA";
+$db_name = "if0_37301024_cardozo_daniela";
 
 $conexion = mysqli_connect( $server, $user, $password, $db_name) or exit ("No se
 pudo conectar a la base de datos");
